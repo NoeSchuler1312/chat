@@ -33,7 +33,7 @@
     <main>
       <div class="topbar">
         <h3>Room 1: eikon oukoi</h3>
-        <input class="input input-search" type="text" />
+        <input class="input input-search" type="text" placeholder="Search..."/>
       </div>
       <div class="messages">
         <div class="sidebar"></div>
@@ -69,12 +69,41 @@
         <div class="sidebar"></div>
       </div>
     </main>
-    <form>
-      <input type="text" name="author" placeholder="Nom" />
-      <input type="text" name="text" placeholder="Message" />
-      <button type="submit">Envoyer</button>
-    </form>
-
+    <footer>
+      <div class="stylebar">
+        <div class="button button-bold"><p>B</p></div>
+        <div class="button button-italic"><p>I</p></div>
+        <div class="button button-underline"><p>U</p></div>
+        <div class="button button-strike"><p>ab</p></div>
+        <div class="line"></div>
+        <div class="button button-color">
+          <div class="selected-color"></div>
+        </div>
+        <div class="line"></div>
+        <input class="input input-color"></input>
+        <input class="input input-font"></input>
+        <div class="line"></div>
+        <div class="button button-symbols"><p>Ω</p></div>
+        <div class="line"></div>
+        <div class="button button-image"><i class="fa-solid fa-image"></i></div>
+        <div class="button button-gif"><p>GIF</p></div>
+        <div class="line"></div>
+        <input class="input input-zoom"></input>
+      </div>
+      <div class="textbar">
+        <input class="textfield" type="text" placeholder="Say something nice! ...">
+        <div class="button button-send"><p>Send</p></div>
+        <div class="button button-rooms"><p>Change room</p></div>
+        <div class="button button-logoff">Log off</div>
+      </div>
+      <div class="bottombar">
+        <p>User:</p>
+        <p>Online since:</p>
+        <p>
+          The Café, by Noé Schüler © <span class="striketrough">2005</span> 2024
+        </p>
+      </div>
+    </footer>
     <script src="js/main.js" type="module"></script>
   </body>
 </html>
