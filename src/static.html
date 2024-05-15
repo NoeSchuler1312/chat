@@ -2,123 +2,35 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Chat - static</title>
+    <title>The Café - online chat</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="scss/main.scss" />
   </head>
   <body>
-    <a href="index.html">Version dynamique</a>
-
-    <div class="messages">
-      <div class="message is-mine">
-        <div class="message-time">08:12:34</div>
-        <div class="message-user">Nicolas</div>
-        <div class="message-text">Bonjour tout le monde !</div>
+    <header>
+      <nav class="navbar">
+        <a href="index.html"><span class="underline">S</span>witch Version</a>
+        <a href=""><span class="underline">F</span>ile</a>
+        <a href=""><span class="underline">V</span>iew</a>
+        <a href=""><span class="underline">F</span>riends</a>
+        <a href=""><span class="underline">C</span>hat Options</a>
+        <a href=""><span class="underline">U</span>tilities</a>
+        <a href=""><span class="underline">H</span>elp</a>
+      </nav>
+      <div class="topbar">
+        <h2 class="title-white">
+          Welcome to the friendliest place on the internet :P !
+        </h2>
+        <img src="img/sheep.png" alt="sheep with wings" />
+        <h1><img src="img/title.gif" alt="The Café" /></h1>
+        <img src="img/borzoi.png" alt="dog with wings" />
+        <h2 class="title-purple">
+          Invite peoples to your room:<br />
+          <a href="" class="title-purple-link">copy link</a>
+        </h2>
       </div>
-      <div class="message">
-        <div class="message-time">08:15:21</div>
-        <div class="message-user">Marie</div>
-        <div class="message-text">Bonjour Nicolas ! Comment ça va ?</div>
-      </div>
-      <div class="message is-mine">
-        <div class="message-time">08:17:50</div>
-        <div class="message-user">Nicolas</div>
-        <div class="message-text">Ça va bien, merci ! Et toi ?</div>
-      </div>
-      <div class="message">
-        <div class="message-time">08:20:10</div>
-        <div class="message-user">Marie</div>
-        <div class="message-text">Je vais bien aussi, merci !</div>
-      </div>
-      <div class="message">
-        <div class="message-time">08:22:45</div>
-        <div class="message-user">Jean</div>
-        <div class="message-text">Salut tout le monde !</div>
-      </div>
-      <div class="message">
-        <div class="message-time">08:25:30</div>
-        <div class="message-user">Marie</div>
-        <div class="message-text">Bonjour Jean ! Comment ça va ?</div>
-      </div>
-      <div class="message">
-        <div class="message-time">08:28:12</div>
-        <div class="message-user">Jean</div>
-        <div class="message-text">Ça va super, merci ! Et vous ?</div>
-      </div>
-      <div class="message is-mine">
-        <div class="message-time">08:31:05</div>
-        <div class="message-user">Nicolas</div>
-        <div class="message-text">Tout va bien de mon côté aussi, merci !</div>
-      </div>
-      <div class="message">
-        <div class="message-time">08:33:44</div>
-        <div class="message-user">Marie</div>
-        <div class="message-text">
-          C'est super de savoir que tout le monde va bien !
-        </div>
-      </div>
-      <div class="message">
-        <div class="message-time">08:36:20</div>
-        <div class="message-user">Jean</div>
-        <div class="message-text">
-          Oui, c'est une bonne journée jusqu'à présent !
-        </div>
-      </div>
-      <div class="message is-mine">
-        <div class="message-time">08:39:10</div>
-        <div class="message-user">Nicolas</div>
-        <div class="message-text">Espérons que ça dure !</div>
-      </div>
-      <div class="message">
-        <div class="message-time">08:42:55</div>
-        <div class="message-user">Marie</div>
-        <div class="message-text">Absolument !</div>
-      </div>
-      <div class="message">
-        <div class="message-time">08:45:30</div>
-        <div class="message-user">Jean</div>
-        <div class="message-text">Qu'avez-vous prévu pour aujourd'hui ?</div>
-      </div>
-      <div class="message is-mine">
-        <div class="message-time">08:48:11</div>
-        <div class="message-user">Nicolas</div>
-        <div class="message-text">
-          Je dois travailler sur ce rapport toute la journée.
-        </div>
-      </div>
-      <div class="message">
-        <div class="message-time">08:51:02</div>
-        <div class="message-user">Marie</div>
-        <div class="message-text">
-          Je vais aller faire du sport cet après-midi.
-        </div>
-      </div>
-      <div class="message">
-        <div class="message-time">08:54:20</div>
-        <div class="message-user">Jean</div>
-        <div class="message-text">
-          Je vais rencontrer un ami pour le déjeuner.
-        </div>
-      </div>
-      <div class="message is-mine">
-        <div class="message-time">08:57:45</div>
-        <div class="message-user">Nicolas</div>
-        <div class="message-text">
-          Ça semble être une bonne journée pour tout le monde !
-        </div>
-      </div>
-      <div class="message">
-        <div class="message-time">09:00:10</div>
-        <div class="message-user">Marie</div>
-        <div class="message-text">Oui, c'est sûr !</div>
-      </div>
-      <div class="message">
-        <div class="message-time">09:02:40</div>
-        <div class="message-user">Jean</div>
-        <div class="message-text">Bonne journée à tous !</div>
-      </div>
-    </div>
-
+    </header>
+    <div class="messages"></div>
     <form>
       <input type="text" name="author" placeholder="Nom" />
       <input type="text" name="text" placeholder="Message" />
