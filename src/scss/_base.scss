@@ -1,13 +1,10 @@
-/* ====================================
-// css variables
-// ==================================== */
-
 :root {
+  --grey: #f1ecf7;
+  --purple: #d43fff;
+  --dark-grey: #433e4e;
+  --white: #ffffff;
+  --purple-degradee: linear-gradient(90deg, #a39de6 0%, #dec2e5 50%, #fff 100%);
 }
-
-/* ====================================
-// reset rules
-// ==================================== */
 
 * {
   box-sizing: border-box;
@@ -26,6 +23,8 @@ body {
 
   font-size: 1rem;
   line-height: 1.25;
+  color: var(--dark-grey);
+  font-family: Arial, sans-serif;
 }
 
 a {
@@ -39,6 +38,7 @@ video {
   vertical-align: middle;
 }
 
-/* ====================================
-// base rules
-// ==================================== */
+h1 {
+  z-index: 2;
+  -webkit-filter: drop-shadow(-2px -2px 2px #fff);
+}

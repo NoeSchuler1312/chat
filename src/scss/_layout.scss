@@ -1,0 +1,54 @@
+.l-navbar {
+  background-color: var(--grey);
+  border-radius: 0px 0px 6px 0px;
+  border-right: 2px solid var(--White, #fff);
+  border-bottom: 2px solid var(--White, #fff);
+  padding: 11px 20px;
+}
+
+.l-navbar a {
+  font-size: 20px;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.l-navbar .underline {
+  text-decoration: underline solid 2px;
+}
+
+.l-titlebar {
+  display: flex;
+  align-items: center;
+  background: var(--purple-degradee);
+  border-radius: 0px 0px 6px 0px;
+  border-bottom: 2px solid var(--dark-grey);
+  padding: 0 20px;
+}
+
+.l-titlebar .title-white {
+  color: var(--white);
+  font-size: 28px;
+  font-weight: 400;
+  text-shadow: -2px -2px 2px var(--dark-grey);
+}
+
+.l-titlebar .title-purple {
+  color: var(--purple);
+  font-size: 28px;
+  font-weight: 700;
+  text-shadow: -2px -2px 2px var(--white);
+  text-align: right;
+}
+
+.l-titlebar .animal {
+  align-self: flex-end;
+  position: relative;
+}
+
+.l-titlebar .animal-sheep {
+  left: 80px;
+}
+
+.l-titlebar .animal-dog {
+  right: 70px;
+}
