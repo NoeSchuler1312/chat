@@ -5,6 +5,7 @@
     <title>The Café - online chat</title>
     <link rel="icon" type="image/x-icon" href="img/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/60cea6d3b4.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="scss/main.scss" />
   </head>
   <body>
@@ -34,7 +35,12 @@
     <main>
       <div class="l-topbar">
         <h3>Room 1: eikon oukoi</h3>
-        <input class="input input-search" type="text" placeholder="Search..."/>
+        <div class="input input-search">
+          <input type="text" placeholder="Search..."/>
+          <div class="button button-search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
       </div>
       <div class="l-messages">
         <div class="l-sidebar"></div>

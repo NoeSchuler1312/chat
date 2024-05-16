@@ -29,7 +29,7 @@
   color: var(--white);
   font-size: 28px;
   font-weight: 400;
-  text-shadow: -2px -2px 2px var(--dark-grey);
+  text-shadow: -2px -2px 2px rgba(0, 0, 0, 0.55);
 }
 
 .l-titlebar .title-purple {
@@ -51,4 +51,13 @@
 
 .l-titlebar .animal-dog {
   right: 70px;
+}
+
+.l-topbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--white);
+  padding: 7px 20px;
+  border-radius: 0px 0px 6px 0px;
+  box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.3);
 }
